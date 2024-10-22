@@ -1,0 +1,48 @@
+body {
+    font-family: "Georgia", serif;
+    background-color: #f8f9fa; /* Light background for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    font-size: 1.2em; /* Slightly smaller font size for better fit */
+    height: 45px;
+    width: 100%; /* Full width for inputs for better usability */
+    padding: 10px; /* Added padding for comfort */
+    border: 1px solid #ced4da; /* Soft border color */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapses borders for a cleaner look */
+    margin: 20px 0; /* Space above and below the table */
+}
+
+th, td {
+    border: 1px solid #dee2e6; /* Light gray border for better visibility */
+    padding: 12px; /* Added padding for table cells */
+    text-align: left; /* Left align text for readability */
+}
+
+th {
+    background-color: #343a40; /* Dark background for headers */
+    color: white; /* White text for contrast */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for better readability */
+}
+
+.inputMain {
+    background-color: #ffffff; /* White background for main input area */
+    padding: 20px; /* Padding for input area */
+    border-radius: 10px; /* Rounded corners for input area */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+h1, h3 {
+    color: #333; /* Darker text for headings */
+}
